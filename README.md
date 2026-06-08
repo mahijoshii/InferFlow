@@ -91,12 +91,6 @@ Example request:
 }
 ```
 
-## Resume Bullets
-
-- Built a FastAPI-based LLM inference gateway that routes prompts across simulated model providers using latency, cost, quality, and reliability signals.
-- Implemented a semantic caching layer using prompt similarity to reduce duplicate inference calls, lowering simulated latency and estimated token cost.
-- Designed a React/TypeScript observability dashboard for tracking cache hit rate, provider usage, request latency, retry behavior, and estimated inference cost.
-
 ## Future Improvements
 
 - Add streaming responses with Server-Sent Events
